@@ -8,7 +8,7 @@ const method = require('./routes/method');//importamos las rutas de pokemon
 const user =  require('./routes/user');//importamos las rutas de user
 //:::::::::::::::::::::MIDDLEWARES:::::::::::::::::::::
 const auth = require('./middleware/auth');//importamos el middleware de autenticacion
-const notFound = require('./middleware/NotFound');//importamos el middleware de ruta no encontrada
+const notFound = require('./middleware/notFound');//importamos el middleware de ruta no encontrada
 const welcome = require('./middleware/welcome');//importamos el middleware de bienvenida
 const cors = require('./middleware/cors');//importamos el middleware de cors
 const dotenv = require('dotenv');//importamos dotenv para variables de entorno
