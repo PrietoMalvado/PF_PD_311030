@@ -1,4 +1,4 @@
-const mysql = require('mysql'); //import modulo mysql
+const mysql = require('mysql2'); //import modulo mysql
 const util = require('util'); //peticiones asincronas
 const config = require('./config');//importamos la configuracion de la base de datos
 
